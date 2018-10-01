@@ -1,6 +1,6 @@
 package udemy.petclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity<Long>{
 
     private String name ;
 

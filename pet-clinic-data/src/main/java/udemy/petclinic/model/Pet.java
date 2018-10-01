@@ -2,7 +2,7 @@ package udemy.petclinic.model;
 
 import java.time.LocalDate;
 
-public class Pet extends BaseEntity {
+public class Pet extends BaseEntity<Long> {
 
     private PetType petType;
     private Owner owner;

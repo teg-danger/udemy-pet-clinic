@@ -2,12 +2,6 @@ package udemy.petclinic.services;
 
 import udemy.petclinic.model.Vet;
 
-import java.util.Set;
+public interface VetService extends CrudeService<Vet,Long>{
 
-public interface VetService {
-    Vet findById(Long id);
-
-    Vet save(Vet vet);
-
-    Set<Vet> findAll();
 }
